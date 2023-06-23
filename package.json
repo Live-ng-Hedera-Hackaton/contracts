@@ -4,7 +4,10 @@
   "description": "loanlink contracts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/deploy/read.js",
+    "deploy": "node ./src/deploy/deploy.js",
+    "generateByteCode": "node ./src/deploy/getByteCode.js"
   },
   "author": "ayoseun",
   "license": "ISC",
